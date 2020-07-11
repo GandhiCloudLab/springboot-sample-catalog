@@ -2,4 +2,4 @@
 
 cd ..
 
-kubectl delete -f ./src
+kubectl delete -f ./yaml
