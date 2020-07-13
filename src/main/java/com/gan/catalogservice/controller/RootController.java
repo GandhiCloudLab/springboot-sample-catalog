@@ -21,7 +21,7 @@ public class RootController {
     @GetMapping("/")
 
     private ModelAndView welcome() {
-        String result = "Welcome to catalog service app ..." ;
+        String result = "Welcome to catalog service app ...!!!!" ;
         System.out.println(result);
         return new ModelAndView ("index.html");
     }
