@@ -20,7 +20,8 @@ spec:
     spec:
       containers:
         - name: container-catalog
-          image: "gandhicloudlab/classic-catalog:latest"
+          # image: "gandhicloudlab/classic-catalog:latest"
+          image: "image-registry.openshift-image-registry.svc:5000/classic-sample-ns/classic-catalog:latest"
           imagePullPolicy: Always
           ports:
             - name: my-http
